@@ -1,0 +1,124 @@
+<html>
+    <head>
+          <link type="text/css" rel="stylesheet" href="main.css" />
+          <title> Skateboards </title>
+        <script>
+          function banner(){
+           var text= confirm("Did you want to click this button?");
+            return text;
+          }
+            function answer(){
+            var radio = document.getElementsByName("trivia");
+            var selection = false;
+            var message = "";
+            for( var i = 0; i < radio.length; i++) {
+            if(radio[i].value == "yes" && radio[i].checked == true) {
+            selection = true;
+                    } //end if statement
+                 } //end for loop
+                if(selection == true) {
+                message = message + "<b><p style='color:green'>Way to go!</p></b>";
+                } else {
+                message = message + "<b><p style='color:red'>Try again my friend.</p>                     </b>";
+                }
+                document.getElementById("response").innerHTML = message;
+            }
+        
+        </script>
+    </head>
+  
+  <body id="background">
+      
+   <a onclick="return banner()"href="https://www.tactics.com/skate">
+      
+  <header id="banner">Skateboards</header>
+    
+   </a>
+    
+  <nav id="navmenu">
+    <ul>
+      <li class="navitem"> <a href="file:///home/chronos/u-dd52add42a1ec3066974b7a6656b2dbfeba56ded/MyFiles/Downloads/Coding/Index.html">Home</a> </li>
+      <li class="navitem"> <a href="file:///home/chronos/u-dd52add42a1ec3066974b7a6656b2dbfeba56ded/MyFiles/Downloads/Coding/society.html">Society</a> </li>
+      <li class="navitem"> <a href="file:///home/chronos/u-dd52add42a1ec3066974b7a6656b2dbfeba56ded/MyFiles/Downloads/Coding/tricks.html">Tricks</a> </li>
+      
+    </ul>
+  </nav>
+    <div class="rightside">
+          <center>
+      <video width="400" height="220" controls autoplay>
+        <source src="http://www.w3schools.com/HTML/mov_bbb.mp4" type="video/mp4">
+        <source src="http://www.w3schools.com/HTML/mov_bbb.ogg" type  ="video/ogg">
+      </video>
+      
+            <img width="50%" src=https://thumbs.dreamstime.com/z/skateboarding-memphis-tennessee-tobey-park-76756379.jpg />
+     
+    <img width="50%" src="https://thumbs.dreamstime.com/z/stylish-skater-jeans-sneakers-skateboard-vector-illustration-postcard-poster-print-clothes-street-cultures-122578666.jpg" />
+    
+    <img width="50%" src="https://thumbs.dreamstime.com/z/stylish-skater-jeans-sneakers-skateboard-vector-illustration-postcard-poster-print-clothes-stylish-skater-122578660.jpg" />
+    <hr>
+      </center>
+    </div>
+    
+    <div class="leftside">
+      
+      <h1>Skateboard Intro</h1>
+   
+      <p class= paragraph>  Skateboarding has always been seen by people as something to do, and while the usual Skateboard community always leads up to something else, like a whole town full of Skaters, or up to <strong>everybody</strong> hating Skateboards except the Skaters themselves. Skating is still a fun hobby and an <i>interesting</i> sport. The tricks are cool, the way it works is nice, and to social bits like the communities or the group of friends that you skate with also teach you some <u>very</u> important life skills.
+      </p>
+    
+      <div class="wrap-list">
+      <ol>
+        <li class= listitem>Skateboarding Tricks</li>
+        <li class= listitem>Skateboarding Communities</li>
+        <li class= listitem>Skateboard Build</li>
+      </ol>
+     </div>
+    </div>
+      <div class="wrap-trivia">
+      <h2>Skateboard Trivia Question:</h2>
+     
+     <p>Who was the first Skater to successfully complete the 900 in competition?</p>
+     
+     <form>
+         <div id="response"></div>
+        <input type="radio" name="trivia" value="yes"> Tony Hawk <br/>
+       
+        <input type="radio" name="trivia" value="No"> Danny Way<br>
+        <input type="radio" name="trivia" value="No"> Andy Macdonald <br>
+        <input type="radio" name="trivia" value="No"> Geoff Rowley <br>
+        <input onclick="answer()"id="button" type="button" value="Click Button">
+      </form>
+        </div>
+     <div class="clearfloat"></div>
+     
+     
+    
+     
+     
+     
+     
+     
+    
+     
+
+     
+     
+     <audio width="400" height="220" controls autoplay>
+<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+</audio>
+     
+
+      <center> Hayden: <a href="https://kbhgames.com/tag/friday-night-funkin#google_vignette">My Favorite Website</a></center>
+ 
+  
+  
+  
+  
+  <footer id="footer">I created this <span class="wrap-text"> moderate</span> website</footer>
+
+  
+  
+    
+  
+  </body>
+</html>
